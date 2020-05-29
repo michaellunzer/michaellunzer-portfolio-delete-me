@@ -13,7 +13,7 @@ export default class Banner extends Component {
         />
         <div className="container">
           <div className="banner-details">
-            <span>Hello...</span>
+            <span>Hello!</span>
             <h1>I'm {data.name}.</h1>
             <ul className="sub-data">
               {data.bannerList.map((item, index) => {
@@ -21,31 +21,7 @@ export default class Banner extends Component {
               })}
             </ul>
             <ul className="social">
-              <li>
-                <a
-                  className="fab fa-facebook-f"
-                  href={data.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-              </li>
-              <li>
-                <a
-                  className="fab fa-twitter"
-                  href={data.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-              </li>
-              <li>
-                <a
-                  className="fab fa-instagram"
-                  href={data.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-              </li>
-              <li>
+            <li>
                 <a
                   className="fab fa-linkedin-in"
                   href={data.linkdin}
@@ -61,6 +37,31 @@ export default class Banner extends Component {
                   rel="noopener noreferrer"
                 ></a>
               </li>
+              <li>
+                <a
+                  className="fab fa-twitter"
+                  href={data.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+              <li>
+                <a
+                  className="fab fa-facebook-f"
+                  href={data.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+              <li>
+                <a
+                  className="fab fa-instagram"
+                  href={data.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+
             </ul>
           </div>
         </div>
