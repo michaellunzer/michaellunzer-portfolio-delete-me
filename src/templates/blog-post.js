@@ -60,7 +60,7 @@ export default class blogPost extends Component {
               </span>
               <div
                 dangerouslySetInnerHTML={{
-                  __html: data.description.childMarkdownRemark.html
+                  __html: data.richdescription.childMarkdownRemark.html
                 }}
               />
             </div>
@@ -101,7 +101,7 @@ export const pageQuery = graphql`
           sizes
         }
       }
-      description {
+      richdescription {
         childMarkdownRemark {
           html
         }
