@@ -24,10 +24,11 @@ export default class MyMap extends Component {
         <div className="section-head">
           <h2 className="text-center">Everywhere I've Been</h2>
         </div>
+        </div>
       <div class="map-holder">
       <iframe src="https://www.google.com/maps/d/u/0/embed?mid=17ijR5B6bvvIgiqRFaEdr0EzwDDU"></iframe>
       </div>
-      </div>
+
       </div>
     );
   }
