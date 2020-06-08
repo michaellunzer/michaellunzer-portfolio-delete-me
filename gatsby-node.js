@@ -1,5 +1,16 @@
 var path = require("path");
 
+// exports.createPages = ({ actions: { createPage } }) => {
+//   createPage({
+//     path: "/my-map/",
+//     component: require.resolve("./src/templates/my-map.js"),
+//   })
+// }
+
+
+// TODO Tomorrow: find a way to combine the map exports.createPages with the one below
+
+
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
   return new Promise((resolve, reject) => {

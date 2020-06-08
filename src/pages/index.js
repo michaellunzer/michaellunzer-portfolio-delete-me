@@ -12,6 +12,8 @@ import Blogs from "../components/blogs";
 import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
 import Photos from "../components/photos";
+import MyMap from "../components/my-map";
+// import MyMap from "../components/my-map";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
@@ -64,6 +66,8 @@ const IndexPage = ({ data }) => (
       .map(t => {
         return <Contact data={data.contentfulAboutMe.gmail}></Contact>;
       })}
+
+      <MyMap />
   </Layout>
 );
 
